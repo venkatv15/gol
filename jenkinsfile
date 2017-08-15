@@ -1,7 +1,7 @@
 // start of pipeline
 pipeline {
   // where pipeline job will run
-  agent any
+  agent any  
   // start of stages : build, test, deploy ...
   stages {
     // start of stage : build
@@ -12,5 +12,6 @@ pipeline {
         bat 'mvn clean install'
       }
     }
-   } 
-  }
+  } 
+}
+
