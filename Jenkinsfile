@@ -1,7 +1,7 @@
 // start of pipeline
 pipeline {
   // where pipeline job will run
-  agent 
+  agent any
     // label "windows_slave"
   
   
