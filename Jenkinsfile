@@ -1,9 +1,9 @@
 // start of pipeline
 pipeline {
   // where pipeline job will run
-  agent {
-    label "windows_slave"
-  }
+  agent 
+    // label "windows_slave"
+  
   
   // start of stages : build, test, deploy ...
   stages {
